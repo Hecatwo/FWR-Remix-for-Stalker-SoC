@@ -41,7 +41,7 @@ inv_name_short					= killer_outfit_name_m1
 description						= killer_outfit_description_m1
 wound_protection				= 0.6
 fire_wound_protection  			= 0.3
-bones_koeff_protection			= gilet_antigas_damage ; TODO Нужна защита от пуль
+bones_koeff_protection			= gilet_antigas_damage
 inv_grid_x						= 18
 inv_grid_y						= 21
 nightvision_sect				= effector_nightvision_bad
@@ -174,13 +174,12 @@ inv_grid_x						= 5
 inv_grid_y						= 20
 inv_grid_width					= 5
 
+inv_weight			= 2.8
+
 smoke_particles 				= weapons\generic_shoot_00
 flame_particles					= ;
 light_disabled					= true
-snd_shoot					= weapons\w_ak74_shot1
-snd_shoot1					= weapons\w_ak74_shot1
-snd_shoot2					= weapons\w_ak74_shot1
-snd_shoot3					= weapons\w_ak74_shot1
+snd_shoot					= weapons\545_sil_alt
 
 [wpn_mp5_m1]:wpn_mp5	;Модифицированный МП5
 $spawn             				= "weapons\uniq\wpn_mp5_m1"
@@ -249,6 +248,7 @@ $spawn             				= "weapons\uniq\wpn_lr300_m1"
 description						= enc_weapons1_wpn-lr300_m1
 inv_name						= wpn-lr300_m1
 inv_name_short					= wpn-lr300_m1
+cost							= 6000
 rpm								= 300
 fire_dispersion_base			= 0.09
 scope_texture					= wpn\wpn_crosshair_l85
@@ -264,7 +264,7 @@ smoke_particles 				= weapons\generic_shoot_00
 flame_particles					= 
 light_disabled					= true
 
-snd_shoot					= weapons\w_ak74_shot1 
+snd_shoot					= weapons\556_sil_alt 
 
 [wpn_svd_m1]:wpn_svd	;СВД "Дальнобойщик"
 $spawn             				= "weapons\uniq\wpn_svd_m1"	
@@ -273,7 +273,7 @@ inv_name						= wpn-svd_m1
 inv_name_short					= wpn-svd_m1
 cam_dispersion					= 0.9
 cam_step_angle_horz				= 0.1
-scope_zoom_factor				= 27
+scope_zoom_factor				= 35
 scope_status					= 1
 ; condition_shot_dec 				= 0.00055
 inv_grid_x						= 5
@@ -317,8 +317,7 @@ smoke_particles 				= weapons\generic_shoot_00
 flame_particles					= 
 light_disabled					= true
 
-snd_shoot			= weapons\colt_m1_sil
-inv_weight			= 1.2
+snd_shoot			= weapons\45acp_sil_alt
 
 
 [wpn_val_m1]:wpn_val	;Модифицированный Вал
@@ -330,7 +329,6 @@ scope_status					= 2
 scope_texture					= wpn\wpn_crosshair
 ; condition_shot_dec 				= 0.00005
 cost							= 10500
-fire_modes						= -1, 1
 inv_grid_x						= 5
 inv_grid_y						= 31
 
@@ -350,7 +348,7 @@ smoke_particles 				= weapons\generic_shoot_00
 flame_particles					= 
 light_disabled					= true
 
-snd_shoot						= weapons\w_ak74_shot1 
+snd_shoot						= weapons\9mm_sil_alt 
 inv_weight			= 2.6
 
 [wpn_abakan_m2]:wpn_abakan	;АH-94 штурмовой

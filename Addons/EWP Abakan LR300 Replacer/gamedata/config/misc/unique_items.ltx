@@ -41,7 +41,7 @@ inv_name_short					= killer_outfit_name_m1
 description						= killer_outfit_description_m1
 wound_protection				= 0.6
 fire_wound_protection  			= 0.3
-bones_koeff_protection			= gilet_antigas_damage ; TODO Нужна защита от пуль
+bones_koeff_protection			= gilet_antigas_damage
 inv_grid_x						= 18
 inv_grid_y						= 21
 nightvision_sect				= effector_nightvision_bad
@@ -133,7 +133,7 @@ description						= enc_weapons1_wpn-ak74_m1
 inv_name	        			= wpn-ak74_m1
 inv_name_short					= wpn-ak74_m1
 rpm                      		= 850
-condition_shot_dec 				= 0.0001
+; condition_shot_dec 				= 0.0001
 cam_dispersion					= 0.05		
 cam_dispersion_inc				= 0.1
 inv_grid_x						= 0
@@ -151,6 +151,7 @@ scope_texture					= wpn\wpn_crosshair
 ; condition_shot_dec 				= 0.0001
 inv_grid_x						= 11
 inv_grid_y						= 37
+inv_weight			= 4.5
 
 [wpn_fort_m1]:wpn_fort	;Экспериментальный Fort
 $spawn              			= "weapons\uniq\wpn_fort_m1"
@@ -186,7 +187,8 @@ description						= enc_weapons1_wpn-mp5_m1
 inv_name	        			= wpn-mp5_m1
 inv_name_short					= wpn-mp5_m1
 ammo_class		 				= ammo_9x18_fmj, ammo_9x18_pmm
-condition_shot_dec 				= 0.00003
+fire_dispersion_base			= 0.35
+; condition_shot_dec 				= 0.00003
 inv_grid_x						= 5
 inv_grid_y						= 33
 
@@ -230,8 +232,6 @@ inv_grid_height    = 1
 inv_grid_x         = 0
 inv_grid_y         = 35
 
-[wpn_winchester_m1_hud]:wpn_wincheaster1300_hud
-
 [wpn_l85_m1]:wpn_l85	;Сбалансированная L85
 $spawn             				= "weapons\uniq\wpn_l85_m1"	
 description						= enc_weapons1_wpn-l85_m1
@@ -249,10 +249,11 @@ $spawn             				= "weapons\uniq\wpn_lr300_m1"
 description						= enc_weapons1_wpn-lr300_m1
 inv_name						= wpn-lr300_m1
 inv_name_short					= wpn-lr300_m1
+cost							= 6000
 rpm								= 300
 fire_dispersion_base			= 0.09
 scope_texture					= wpn\wpn_crosshair_l85
-scope_zoom_factor		= 30
+scope_zoom_factor				= 35;30	;2X (SUSAT scope zoom, not ironsights!)
 inv_weight			= 3.2
 scope_status					= 1
 silencer_status					= 1
@@ -263,6 +264,7 @@ inv_grid_y         = 35
 smoke_particles 				= weapons\generic_shoot_00
 flame_particles					= 
 light_disabled					= true
+
 snd_shoot					= weapons\556_sil_alt 
 
 [wpn_svd_m1]:wpn_svd	;СВД "Дальнобойщик"
@@ -311,9 +313,11 @@ silencer_status					= 1
 ; condition_shot_dec 				= 0.00033
 inv_grid_x						= 18
 inv_grid_y						= 20
+
 smoke_particles 				= weapons\generic_shoot_00
 flame_particles					= 
 light_disabled					= true
+
 snd_shoot			= weapons\45acp_sil_alt
 inv_weight			= 1.2
 
@@ -335,6 +339,7 @@ description						= enc_weapons1_wpn-mp5_m2
 inv_name	        			= wpn-mp5_m2
 inv_name_short					= wpn-mp5_m2
 silencer_status					= 1
+fire_dispersion_base			= 0.15
 ; condition_shot_dec 				= 0.00003
 inv_grid_x						= 5
 inv_grid_y						= 22
@@ -387,6 +392,7 @@ fire_dispersion_base		= 0.11
 ; condition_shot_dec 				= 0.00005
 inv_grid_x						= 0
 inv_grid_y						= 22
+inv_weight						= 4.4
 
 [wpn_rg6_m1]:wpn_rg-6	;РГ-6 м209
 $spawn             				= "weapons\uniq\wpn_rg6_m1"	

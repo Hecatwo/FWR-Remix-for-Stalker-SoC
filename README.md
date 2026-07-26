@@ -11,7 +11,7 @@ A weapon reanimation project for **S.T.A.L.K.E.R.: Shadow of Chernobyl (SoC)** a
 
 ## Why This Mod?
 
-I wasn't a fan of certain weapons from EWP due to jittery rigging that made the Marked One look like he had Parkinson's, and I ran into issues with FWR OLR, mostly because it felt incomplete. I decided to combine the best parts of both mods: using FWR as a solid base while offering EWP guns as modular addons so you can mix and match to your liking.
+I wasn't a fan of certain weapons from EWP due to jittery rigging that made Marked One look like he had Parkinson's, and I ran into issues with FWR OLR, mostly because it felt incomplete. I decided to combine the best parts of both mods: using FWR as a solid base while offering EWP guns as modular addons so you can mix and match to your liking.
 
 ---
 

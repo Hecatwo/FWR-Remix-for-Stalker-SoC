@@ -40,7 +40,7 @@ I wasn't a fan of certain weapons from EWP due to jittery rigging that made the 
 
 ## Installation
 
-> **Compatibility Note:** Designed for **SoC (1.0004–1.0006)** and **RMA**. Installing over other heavy weapon mods may cause overwrite conflicts.
+> **Compatibility Note:** Designed for **SoC (1.0006)** and **RMA**. Installing over other mods may cause incompatibilites that lead to crashes, thus need to be patched manually.
 
 1. Ensure you start with a clean installation of **S.T.A.L.K.E.R.: Shadow of Chernobyl** (or vanilla **RMA**).
 2. Copy the contents of the main mod's `gamedata` folder into your SoC root directory.

@@ -618,6 +618,12 @@
     <string id="enc_weapons1_wpn-rpk"> 
         <text>A heavily modified Kalash once belonging to Strelok, customized with a bipod and heavy barrel to resemble an old Soviet machine gun. Heavy and unwieldy, but its extreme rate of fire offers unmatched suppressive capability.\n \nAmmunition:\n - 5.45x39mm FMJ\n - 5.45x39mm BP</text> 
     </string>
+    <string id="wpn-p90-45_name">
+		<text>P90</text>
+	</string>
+	<string id="enc_weapons1_wpn-p90-45acp">
+		<text>A stalker nicknamed Vampire had his P90 custom rechambered for .45 ACP rounds. The conversion reduced magazine capacity to 40 rounds but gave the weapon significantly more stopping power at close range.\n \nAmmunition:\n .45 ACP FMJ,\n .45 ACP Hydroshock.</text>
+	</string>
 	<!--EWP Uniques END-->
 	<!--RMA BEGIN-->
 	<string id="wpn-vintorez_coll">

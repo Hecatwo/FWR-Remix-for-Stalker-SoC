@@ -49,7 +49,6 @@ I wasn't a fan of certain weapons from EWP due to jittery rigging that made Mark
 * **Vanilla Hand Models:** Uses standard SoC hand models and maintains full compatibility with arm retexture mods.
 * **Audio Overhaul:** Firing, holstering, and drawing sounds have been updated and mixed with classic SoC audio, replacing older build-era sounds from OLR.
 * **Unique Items Adjustment:** Replaces low-quality NVGs with higher-quality versions and removes the degradation debuffs from all unique weapons.
-* **Easy Porting:** Designed for straightforward installation and modular adaptation into other SoC mods with minimal configuration adjustments.
 
 ---
 
@@ -57,8 +56,8 @@ I wasn't a fan of certain weapons from EWP due to jittery rigging that made Mark
 
 | Addon | Description |
 | :--- | :--- |
-| **EWP Abakan & LR-300 Replacer** | Replaces the FWR AKMS with the EWP Abakan, and swaps out the vanilla-animated FWR LR-300 for the EWP version. |
-| **EWP Pistols Replacer** | Replaces all FWR pistols with EWP models (since base FWR only reanimates the PM and PB). |
+| **EWP Abakan** | Replaces the FWR AKMS with the EWP AN-94 Abakan. |
+| **EWP Pistols** | Replaces all FWR pistols with EWP models except PM and PB. |
 | **EWP Shotguns** | Replaces all FWR shotguns with EWP models; full-length double-barrel shotguns are included as an option. |
 | **EWP Gauss** | Replaces the vanilla Gauss Rifle with the EWP version (removes the SUSAT sight and increases rate of fire). |
 | **EWP Unique Weapons Replacer** | Overhauls unique SoC weapons using EWP models. Adds the **VSK-94**, **MP-133**, and **RPK**. |

@@ -1,13 +1,38 @@
+<div align="center">
+
+<!-- Optional Hero Banner Image -->
+<!-- <img src="https://i.imgur.com/YOUR_BANNER.jpg" alt="Stalker SoC FWR Remix Banner" width="100%"> -->
+
 # Stalker-SoC-FWR-Remix
 
-![Game](https://img.shields.io/badge/Game-S.T.A.L.K.E.R._SoC-orange)
-![Type](https://img.shields.io/badge/Type-Weapon_Mod-green)
+[![Game](https://img.shields.io/badge/Game-S.T.A.L.K.E.R._SoC-orange?style=for-the-badge)](https://store.steampowered.com/app/4500/)
+[![Type](https://img.shields.io/badge/Type-Weapon_Mod-green?style=for-the-badge)](https://github.com/)
 
 A weapon reanimation project for **S.T.A.L.K.E.R.: Shadow of Chernobyl (SoC)** and the **RMA (Old Story Restoration)** addon.
+
+[Overview](#overview) • [Why This Mod?](#why-this-mod) • [Screenshots](#screenshots) • [Features](#features) • [Addons](#optional-addons) • [Installation](#installation) • [Credits](#credits)
+
+</div>
+
+---
+
+## Overview
+
+**Stalker-SoC-FWR-Remix** is a hybrid weapon overhaul built upon **FWR OLR**, adapted for seamless play with vanilla SoC, and enhanced with fixes and tweaks from **Final Update (FU)**. It incorporates optional weapon replacements from **EWP 1.1** to fill in content gaps while fixing original animation issues.
+
+---
+
+## Why This Mod?
+
+I wasn't a fan of certain weapons from EWP due to jittery rigging that made Marked One look like he had Parkinson's, and I ran into issues with FWR OLR, mostly because it felt incomplete. I decided to combine the best parts of both mods: using FWR as a solid base while offering EWP guns as modular addons so you can mix and match to your liking.
 
 ---
 
 ## Screenshots
+
+<details>
+<summary>📸 <b>Click here to view/hide screenshot gallery</b></summary>
+<br>
 
 | | |
 | :---: | :---: |
@@ -15,15 +40,7 @@ A weapon reanimation project for **S.T.A.L.K.E.R.: Shadow of Chernobyl (SoC)** a
 | <img src="https://i.imgur.com/E6cFw6x.jpeg" width="100%"> | <img src="https://i.imgur.com/765q7MW.jpeg" width="100%"> |
 | <img src="https://i.imgur.com/ZxIrmnM.jpeg" width="100%"> | <img src="https://i.imgur.com/VFykIMl.jpeg" width="100%"> |
 
----
-
-## Overview
-
-**Stalker-SoC-FWR-Remix** is a hybrid weapon overhaul built upon **FWR OLR**, adapted for seamless play with vanilla SoC, with fixes and tweaks from **Final Update (FU)**. Also includes optional weapon replacements from **EWP 1.1** to fill the gaps within the animation while fixing original animation issues.
-
-### Why This Mod?
-
-I wasn't a fan of certain weapons from EWP due to jittery rigging that made Marked One look like he had Parkinson's, and I ran into issues with FWR OLR, mostly because it felt incomplete. So I decided to combine the best parts of both mods: using FWR as a solid base while using EWP guns as modular addons so you can mix and match to your liking.
+</details>
 
 ---
 
@@ -52,7 +69,8 @@ I wasn't a fan of certain weapons from EWP due to jittery rigging that made Mark
 
 ## Installation
 
-> **Compatibility Note:** Designed for **SoC (1.0006)** and **RMA**. Installing over other mods may cause incompatibilites that lead to crashes, thus need to be patched manually.
+> [!IMPORTANT]
+> **Compatibility Note:** Designed for **SoC (1.0006)** and **RMA**. Installing over other mods may cause incompatibles that lead to crashes, thus need to be patched manually.
 
 1. Ensure you start with a clean installation of **S.T.A.L.K.E.R.: Shadow of Chernobyl** (or vanilla **RMA**).
 2. Copy the contents of the main mod's `gamedata` folder into your SoC root directory.

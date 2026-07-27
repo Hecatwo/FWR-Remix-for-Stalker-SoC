@@ -38,6 +38,15 @@ I wasn't a fan of certain weapons from EWP due to jittery rigging that made Mark
 
 ---
 
+## Screenshots
+![Alt Text Description](https://i.imgur.com/7FEncjo.jpeg)
+![Alt Text Description](https://i.imgur.com/NIqk5VM.jpeg)
+![Alt Text Description](https://i.imgur.com/E6cFw6x.jpeg)
+![Alt Text Description](https://i.imgur.com/765q7MW.jpeg)
+![Alt Text Description](https://i.imgur.com/ZxIrmnM.jpeg)
+![Alt Text Description](https://i.imgur.com/VFykIMl.jpeg)
+
+
 ## Installation
 
 > **Compatibility Note:** Designed for **SoC (1.0006)** and **RMA**. Installing over other mods may cause incompatibilites that lead to crashes, thus need to be patched manually.

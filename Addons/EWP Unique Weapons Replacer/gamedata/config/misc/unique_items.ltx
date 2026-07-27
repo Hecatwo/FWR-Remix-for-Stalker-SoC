@@ -143,16 +143,16 @@ visual                  			= weapons\rpk\wpn_rpk.ogf
 
 [wpn_abakan_m1]:wpn_abakan	;АH-94 снайперский
 $spawn              			= "weapons\uniq\wpn_abakan_m1"	
-description						= enc_weapons1_wpn-abakan_m1_soc
-inv_name	        			= wpn-abakan_m1_soc
-inv_name_short					= wpn-abakan_m1_soc
+description						= enc_weapons1_wpn-abakan_m1
+inv_name	        			= wpn-abakan_m1
+inv_name_short					= wpn-abakan_m1
 fire_dispersion_base			= 0.12
 scope_status					= 1
 scope_zoom_factor				= 27
 scope_texture					= wpn\wpn_crosshair
 ; condition_shot_dec 				= 0.0001
-inv_grid_x						= 11
-inv_grid_y						= 37
+inv_grid_x						= 0
+inv_grid_y						= 20
 inv_weight			= 4.5
 
 [wpn_fort_m1]:wpn_fort	;Экспериментальный Fort
@@ -259,9 +259,10 @@ inv_weight			= 3.2
 scope_status					= 1
 silencer_status					= 1
 ; condition_shot_dec 				= 0.00005
-inv_grid_x			= 6  	
-inv_grid_y         = 35
-
+inv_grid_x						= 0
+inv_grid_y						= 26
+;inv_grid_x			= 6
+;inv_grid_y         = 35
 smoke_particles 				= weapons\generic_shoot_00
 flame_particles					= 
 light_disabled					= true
@@ -275,7 +276,7 @@ inv_name						= wpn-svd_m1
 inv_name_short					= wpn-svd_m1
 cam_dispersion					= 0.9
 cam_step_angle_horz				= 0.1
-scope_zoom_factor				= 27
+scope_zoom_factor				= 35
 scope_status					= 1
 ; condition_shot_dec 				= 0.00055
 inv_grid_x						= 5
@@ -367,14 +368,14 @@ inv_weight			= 2.6
 
 [wpn_abakan_m2]:wpn_abakan	;АH-94 штурмовой
 $spawn              			= "weapons\uniq\wpn_abakan_m2"	
-description						= enc_weapons1_wpn-abakan_m2_soc
-inv_name	        			= wpn-abakan_m2_soc
-inv_name_short					= wpn-abakan_m2_soc
+description						= enc_weapons1_wpn-abakan_m2
+inv_name	        			= wpn-abakan_m2
+inv_name_short					= wpn-abakan_m2
 grenade_launcher_status			= 1
 grenade_vel						= 76
 ; condition_shot_dec 				= 0.00003
-inv_grid_x						= 16
-inv_grid_y						= 37
+inv_grid_x						= 0
+inv_grid_y						= 28
 inv_weight			= 5.3
 
 [wpn_l85_m2]:wpn_l85	;Облегченная l85
@@ -468,7 +469,7 @@ $spawn             		= "weapons\arena\wpn_g36_arena"
 
 [hunters_toz]:wpn_toz34
 $spawn                  = "devices\uniq\hunters_toz"					; option for Level Editor
-condition_shot_dec 		= 0.0015										;увеличение износа при каждом выстреле
+; condition_shot_dec 		= 0.0015										;увеличение износа при каждом выстреле
 description				= enc_weapons1_wpn-hunters_toz
 
 [pri_lom_ak74]:wpn_ak74
@@ -478,7 +479,7 @@ description				= enc_weapons1_wpn-pri_lom_ak74
 
 [wpn_deserteagle_coll]:wpn_desert_eagle
 $spawn                  = "devices\uniq\wpn_deserteagle_coll"			; option for Level Editor
-condition_shot_dec 		= 0.0002										;увеличение износа при каждом выстреле
+; condition_shot_dec 		= 0.0002										;увеличение износа при каждом выстреле
 inv_name	        	= wpn-deserteagle_coll
 inv_name_short        	= wpn-deserteagle_coll
 description				= enc_weapons1_wpn-desert-eagle_coll
@@ -487,7 +488,7 @@ inv_grid_y						= 22
 
 [wpn_vintorez_coll]:wpn_vintorez
 $spawn                  = "devices\uniq\wpn_vintorez_coll"				; option for Level Editor
-condition_shot_dec 		= 0.0001										;увеличение износа при каждом выстреле
+; condition_shot_dec 		= 0.0001										;увеличение износа при каждом выстреле
 inv_grid_x				= 5
 inv_grid_y				= 34
 description				= enc_weapons1_wpn-vintorez_coll

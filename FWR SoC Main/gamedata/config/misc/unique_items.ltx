@@ -133,7 +133,7 @@ description						= enc_weapons1_wpn-ak74_m1
 inv_name	        			= wpn-ak74_m1
 inv_name_short					= wpn-ak74_m1
 rpm                      		= 850
-condition_shot_dec 				= 0.0001
+; condition_shot_dec 				= 0.0001
 cam_dispersion					= 0.05		
 cam_dispersion_inc				= 0.1
 inv_grid_x						= 0
@@ -209,7 +209,7 @@ inv_grid_x						= 5
 inv_grid_y						= 29
 
 [wpn_spas12_m1]:wpn_spas12	;—пас-12 ’антера
-$spawn             				= "weapons\uniq\wpn_spas12_m1"	
+$spawn             				= "weapons\uniq\wpn_spas12_m1"
 description						= enc_weapons1_wpn-spas12_m1
 inv_name						= wpn-spas12_m1
 inv_name_short					= wpn-spas12_m1
@@ -223,7 +223,7 @@ $spawn             				= "weapons\uniq\wpn_winchester_m1"
 description						= enc_weapons1_wpn-winchester_m1
 inv_name	        			= wpn-winchester_m1
 inv_name_short					= wpn-winchester_m1
-hit_power        				= 0.9
+hit_power        				= 0.95
 hit_impulse      				= 250
 bullet_speed			 	= 600
 ammo_mag_size		 			= 5
@@ -259,7 +259,8 @@ silencer_status					= 1
 ; condition_shot_dec 				= 0.00005
 inv_grid_x						= 0
 inv_grid_y						= 26
-
+;inv_grid_x			= 6
+;inv_grid_y         = 35
 smoke_particles 				= weapons\generic_shoot_00
 flame_particles					= 
 light_disabled					= true
@@ -318,6 +319,7 @@ flame_particles					=
 light_disabled					= true
 
 snd_shoot			= weapons\45acp_sil_alt
+inv_weight			= 1.2
 
 
 [wpn_val_m1]:wpn_val	;ћодифицированный ¬ал
@@ -377,11 +379,7 @@ inv_grid_y						= 24
 smoke_particles 				= weapons\generic_shoot_00
 flame_particles					= ;
 light_disabled					= true
-snd_shoot					= weapons\w_ak74_shot1
-
-snd_shoot					= weapons\w_ak74_shot1 
-
-
+snd_shoot					= weapons\556_sil_alt
 
 [wpn_sig_m2]:wpn_sig550	;SiG снайперский
 $spawn             				= "weapons\uniq\wpn_sig_m2"	
@@ -458,7 +456,7 @@ $spawn             		= "weapons\arena\wpn_g36_arena"
 
 [hunters_toz]:wpn_toz34
 $spawn                  = "devices\uniq\hunters_toz"					; option for Level Editor
-condition_shot_dec 		= 0.0015										;увеличение износа при каждом выстреле
+; condition_shot_dec 		= 0.0015										;увеличение износа при каждом выстреле
 description				= enc_weapons1_wpn-hunters_toz
 
 [pri_lom_ak74]:wpn_ak74
@@ -468,7 +466,7 @@ description				= enc_weapons1_wpn-pri_lom_ak74
 
 [wpn_deserteagle_coll]:wpn_desert_eagle
 $spawn                  = "devices\uniq\wpn_deserteagle_coll"			; option for Level Editor
-condition_shot_dec 		= 0.0002										;увеличение износа при каждом выстреле
+; condition_shot_dec 		= 0.0002										;увеличение износа при каждом выстреле
 inv_name	        	= wpn-deserteagle_coll
 inv_name_short        	= wpn-deserteagle_coll
 description				= enc_weapons1_wpn-desert-eagle_coll
@@ -477,7 +475,7 @@ inv_grid_y						= 22
 
 [wpn_vintorez_coll]:wpn_vintorez
 $spawn                  = "devices\uniq\wpn_vintorez_coll"				; option for Level Editor
-condition_shot_dec 		= 0.0001										;увеличение износа при каждом выстреле
+; condition_shot_dec 		= 0.0001										;увеличение износа при каждом выстреле
 inv_grid_x			= 17
 inv_grid_y         = 35
 description				= enc_weapons1_wpn-vintorez_coll

@@ -18,20 +18,20 @@ A weapon reanimation project for **S.T.A.L.K.E.R.: Shadow of Chernobyl (SoC)** a
 
 ## Overview
 
-**Stalker-SoC-FWR-Remix** is a hybrid weapon overhaul built upon **FWR OLR**, adapted for seamless play with vanilla SoC, and enhanced with fixes and tweaks from **Final Update (FU)**. It incorporates optional weapon replacements from **EWP 1.1** to fill in content gaps while fixing original animation issues.
+**Stalker-SoC-FWR-Remix** is a hybrid weapon animation overhaul built upon **FWR OLR**, adapted for vanilla SoC, with with fixes and tweaks from **Final Update (FU)**. It incorporates optional weapon replacements from **EWP 1.1** to fill in content gaps while fixing original animation issues.
 
 ---
 
 ## Why This Mod?
 
-I wasn't a fan of certain weapons from EWP due to jittery rigging that made Marked One look like he had Parkinson's, and I ran into issues with FWR OLR, mostly because it felt incomplete. I decided to combine the best parts of both mods: using FWR as a solid base while offering EWP guns as modular addons so you can mix and match to your liking.
+I wasn't a fan of certain weapons from EWP due to jittery rigging that made Marked One look like he had Parkinson's, and I ran into issues with FWR OLR, mostly because it felt incomplete. So I decided to combine the best parts of both mods: using FWR as a solid base while offering EWP guns as modular addons so you can mix and match to your liking.
 
 ---
 
 ## Screenshots
 
 <details>
-<summary>📸 <b>Click here to view/hide screenshot gallery</b></summary>
+<summary><b>Screenshots</b></summary>
 <br>
 
 | | |
@@ -47,7 +47,7 @@ I wasn't a fan of certain weapons from EWP due to jittery rigging that made Mark
 ## Features
 
 * **Vanilla Hand Models:** Uses standard SoC hand models and maintains full compatibility with arm retexture mods.
-* **Audio Overhaul:** Firing, holstering, and drawing sounds have been updated and mixed with classic SoC audio, replacing older build-era sounds from OLR.
+* **Audio Overhaul:** Firing, holstering, and drawing sounds have been updated and mixed with classic SoC audio, replacing older build sounds from OLR.
 * **Unique Items Adjustment:** Replaces low-quality NVGs with higher-quality versions and removes the degradation debuffs from all unique weapons.
 
 ---
@@ -57,8 +57,7 @@ I wasn't a fan of certain weapons from EWP due to jittery rigging that made Mark
 | Addon | Description |
 | :--- | :--- |
 | **EWP Abakan** | Replaces the FWR AKMS with the EWP AN-94 Abakan. |
-| **EWP Pistols** | Replaces all FWR pistols with EWP models except PM and PB. |
-| **EWP Shotguns** | Replaces all FWR shotguns with EWP models; full-length double-barrel shotguns are included as an option. |
+| **EWP Pistols** | Replaces FWR pistols with EWP models except PM and PB. |
 | **EWP Gauss** | Replaces the vanilla Gauss Rifle with the EWP version (removes the SUSAT sight and increases rate of fire). |
 | **EWP Unique Weapons Replacer** | Overhauls unique SoC weapons using EWP models. Adds the **VSK-94**, **MP-133**, and **RPK**. |
 | **Real Weapon Names** | Restores real-world weapon names across all firearms, matching early development builds. |
@@ -80,9 +79,7 @@ I wasn't a fan of certain weapons from EWP due to jittery rigging that made Mark
 ## To-Do
 
 - [ ] Adapt for **GRM 2.0** (Separate Fork)
-- [ ] Evaluate adaptation for **ZRP**
-- [ ] Clean up unused files and unused assets
-
+- [ ] Replace LR300 Animations
 ---
 
 ## Credits

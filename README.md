@@ -10,15 +10,9 @@
 
 A weapon reanimation project for **S.T.A.L.K.E.R.: Shadow of Chernobyl (SoC)** and the **RMA (Old Story Restoration)** addon.
 
-[Overview](#overview) • [Why This Mod?](#why-this-mod) • [Screenshots](#screenshots) • [Features](#features) • [Addons](#optional-addons) • [Installation](#installation) • [Credits](#credits)
+[Why This Mod?](#why-this-mod) • [Screenshots](#screenshots) • [Features](#features) • [Addons](#optional-addons) • [Installation](#installation) • [Credits](#credits)
 
 </div>
-
----
-
-## Overview
-
-**Stalker-SoC-FWR-Remix** is a hybrid weapon animation overhaul built upon **FWR OLR**, adapted for vanilla SoC, with with fixes and tweaks from **Final Update (FU)**. It incorporates optional weapon replacements from **EWP 1.1** to fill in content gaps while fixing original animation issues.
 
 ---
 
@@ -47,7 +41,7 @@ I wasn't a fan of certain weapons from EWP due to jittery rigging that made Mark
 ## Features
 
 * **Vanilla Hand Models:** Uses standard SoC hand models and maintains full compatibility with arm retexture mods.
-* **Audio Overhaul:** Firing, holstering, and drawing sounds have been updated and mixed with classic SoC audio, replacing older build sounds from OLR.
+* **Audio Overhaul:** Firing, holstering, and drawing sounds have been updated and mixed with classic SoC audio.
 * **Unique Items Adjustment:** Replaces low-quality NVGs with higher-quality versions and removes the degradation debuffs from all unique weapons.
 
 ---
@@ -59,8 +53,8 @@ I wasn't a fan of certain weapons from EWP due to jittery rigging that made Mark
 | **EWP Abakan** | Replaces the FWR AKMS with the EWP AN-94 Abakan. |
 | **EWP Pistols** | Replaces FWR pistols with EWP models except PM and PB. |
 | **EWP Gauss** | Replaces the vanilla Gauss Rifle with the EWP version (removes the SUSAT sight and increases rate of fire). |
-| **EWP Unique Weapons Replacer** | Overhauls unique SoC weapons using EWP models. Adds the **VSK-94**, **MP-133**, and **RPK**. |
-| **Real Weapon Names** | Restores real-world weapon names across all firearms, matching early development builds. |
+| **EWP Unique Weapons Replacer** | Replaced some unique SoC weapons using EWP models. Adds the **VSK-94**, **MP-133**, and **RPK**. |
+| **Real Weapon Names** | Restores real-world weapon names across all firearms, just like the builds. |
 | **Arm Textures** | Includes various arm textures to choose from. |
 
 ---
@@ -70,7 +64,7 @@ I wasn't a fan of certain weapons from EWP due to jittery rigging that made Mark
 > [!IMPORTANT]
 > **Compatibility Note:** Designed for **SoC (1.0006)** and **RMA**. Installing over other mods may cause incompatibles that lead to crashes, thus need to be patched manually.
 
-1. Ensure you start with a clean installation of **S.T.A.L.K.E.R.: Shadow of Chernobyl** (or vanilla **RMA**).
+1. Ensure you start with a clean installation of **S.T.A.L.K.E.R.: Shadow of Chernobyl** (or with **RMA**).
 2. Copy the contents of the main mod's `gamedata` folder into your SoC root directory.
 3. *(Optional)* Select your desired extras from the `Addons` folder and copy them into your `gamedata` directory, allowing files to overwrite when prompted.
 
